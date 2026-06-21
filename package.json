@@ -1,0 +1,11 @@
+{
+  "name": "devconnect",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm --prefix server start\" \"npm --prefix client run dev\""
+  }
+}
